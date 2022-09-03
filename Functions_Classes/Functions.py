@@ -1,4 +1,8 @@
 # Functions
+import requests as re
+import time
+from Functions_Classes import Functions as Fc
+import json
 
 def getAPI_key():
     
@@ -61,7 +65,7 @@ def KeyMap_summoner_spells():
     return mapped_summoners
 
 
-def get_challenger_player_stats():
+def get_challenger_player_stats(api_key):
     
     ''' 
     This function calls the v4 API ranked_solo_5x5 endpoint
@@ -77,7 +81,7 @@ def get_challenger_player_stats():
     return re.get(url, headers = header_dict).json()
 
 
-def get_challenger_player_id(player_id):
+def get_challenger_player_id(player_id, api_key):
     
     ''' 
     Takes as input the player_id(encrypted summoner id) and returns a list of account information from the summoner-V4 api and encryptedAccountId endpoint
@@ -93,7 +97,7 @@ def get_challenger_player_id(player_id):
     return re.get(url, headers = header_dict).json()
 
 
-def get_matches(puuid, startTime_Unix, endTime_Unix):
+def get_matches(puuid, startTime_Unix, endTime_Unix, api_key):
     
     ''' 
     Takes the puuid of a player as input as well as a start and end time in Unix to specify the range to retrieve games.
@@ -123,7 +127,7 @@ def get_matches(puuid, startTime_Unix, endTime_Unix):
     return re.get(url, headers = header_dict, params = params_dict).json()
 
 
-def get_match_info(match):
+def get_match_info(match, api_key):
     
     ''' 
     Takes in a match id as input
@@ -140,7 +144,7 @@ def get_match_info(match):
     return re.get(url, headers = header_dict).json()
 
 
-def get_player_stats(summoner_id):
+def get_player_stats(summoner_id, api_key):
     
     '''
     Takes in an encrypted summoner id as input
@@ -179,7 +183,7 @@ class Summoner:
         .total_matches : Total matches played in the previously specified time range
     '''
     
-    def __init__(self, summonerId, startTime_Unix, endTime_Unix):
+    def __init__(self, summonerId, startTime_Unix, endTime_Unix, challenger_ladder, api_key):
         self.summonerId = summonerId
         
         #Looping through the ladder until a match is found with the input summoner id
@@ -194,14 +198,14 @@ class Summoner:
                 self.summonerName = value['summonerName']
         
         #Finds all the accounts of the player in dictionary format
-        self.accounts = get_challenger_player_id(summonerId)
+        self.accounts = get_challenger_player_id(summonerId, api_key)
         #Finds the puuid of the player
         self.puuid = self.accounts['puuid']
         #Finds the players summoner level
         self.summonerLevel = self.accounts['summonerLevel']
         
         #Returns a list of matches the player has played based on the parameters in the get_matches function
-        self.matches = get_matches(self.puuid, startTime_Unix, endTime_Unix)
+        self.matches = get_matches(self.puuid, startTime_Unix, endTime_Unix, api_key)
         
         #Total games played by this summoner on this specific patch
         self.total_matches = len(self.matches)
@@ -235,11 +239,11 @@ class Match_details:
         
     '''
     
-    def __init__(self, Match_id):
+    def __init__(self, Match_id, api_key):
         self.Match_id = Match_id
         
         #Calling matchesV5 api
-        self.call = get_match_info(Match_id)
+        self.call = get_match_info(Match_id, api_key)
         
         #Storing api call and filtering out uneeded data
         self.Match_info = self.call['info']
@@ -256,7 +260,7 @@ class Match_details:
         self.team2_win = self.team2['win']
         
         #Storing bans for each team
-        self.team2_bans = self.team1['bans']
+        self.team1_bans = self.team1['bans']
         self.team2_bans = self.team1['bans']
         
         #Creating a list of encrypted summoner ids
@@ -283,7 +287,7 @@ class Match_details:
                 .player_stats : Uses the get_player_stats function to get player information. Check the function docstring for a return value description            
             '''
     
-            def __init__(self, summoner_Id, players):
+            def __init__(self, summoner_Id, players, api_key):
                 self.summoner_Id = summoner_Id
                 # Holds lane, champion and team of given player
                 self.players = players
@@ -299,7 +303,17 @@ class Match_details:
                         elif self.teamId == 200:
                             self.teamId = 'team2'
                 #Grabbing winrate/winstreak/rank/lp of the given player        
-                self.player_stats = get_player_stats(self.summoner_Id)
+                self.player_stats = get_player_stats(self.summoner_Id, api_key)
+                for queue in self.player_stats:
+                    print(queue)
+                    if queue['queueType'] == 'RANKED_SOLO_5x5':
+                        self.wins = queue['wins']
+                        self.losses = queue['losses']
+                        self.tier = queue['tier']
+                        self.rank = queue['rank']
+                        self.lp = queue['leaguePoints']
+                        self.veteran = queue['veteran']
+                        self.winstreak = queue['hotStreak']
 
                         
         
@@ -307,5 +321,6 @@ class Match_details:
         self.player_position = {}
         for i, summoner_Id in enumerate(self.summoner_Id):
             temp = 'Player' + str(i)
-            self.player_position[temp] = Player(summoner_Id, self.players)
+            self.player_position[temp] = Player(summoner_Id, self.players, api_key)
+            time.sleep(1.5)
                 
