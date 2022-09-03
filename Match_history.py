@@ -1,10 +1,11 @@
 import requests as re
 import time
 from Functions_Classes import Functions as Fc
-
+import json
 
 api_key = Fc.getAPI_key()   
-
+KeyMap_Champions = Fc.KeyMap_Champions()
+KeyMap_summoner_spells = Fc.KeyMap_summoner_spells()
 #Getting challenger Ladder
 challenger_ladder = Fc.get_challenger_player_stats()     
 player_info = {}
@@ -35,5 +36,8 @@ for i, game in enumerate(total_games):
     print(i)
     time.sleep(30)
 
-for game in games:            
-    print(games.player_position['Player1'].Lane)
+for game in games:    
+            
+    game_Id = games['Game8'].Match_info['gameId']
+    game_Version = games['Game8'].Match_info['gameVersion']
+

@@ -1,4 +1,5 @@
 # Functions
+
 def getAPI_key():
     
     ''' 
@@ -40,6 +41,24 @@ def KeyMap_Champions():
         
     mapped_champions = dict(zip(champNames,champKeys))    
     return mapped_champions
+
+
+def KeyMap_summoner_spells():
+    
+    #Matches key values of champions with their names, useful later in the script
+    with open('data/summoner_spell_map.txt', 'r', encoding="utf8") as summonerList_file:
+        summonerList = json.load(summonerList_file)
+        summonerList_file.close()
+        summonerList = summonerList['data']
+    
+    SummonerNames = []
+    SummonerKeys = []
+    for value in summonerList:
+        SummonerNames.append(value)
+        SummonerKeys.append(summonerList[value]['key'])
+        
+    mapped_summoners = dict(zip(SummonerNames,SummonerKeys))    
+    return mapped_summoners
 
 
 def get_challenger_player_stats():
@@ -273,6 +292,8 @@ class Match_details:
                         self.Lane = value['individualPosition']
                         self.championId = value['championId'] 
                         self.teamId = value['teamId']
+                        self.summonerName = value['summonerName']
+                        self.summonerLevel = value['summonerLevel']
                         if self.teamId == 100:
                             self.teamId = 'team1'
                         elif self.teamId == 200:
