@@ -43,7 +43,7 @@ def KeyMap_Champions():
         champNames.append(value)
         champKeys.append(champList[value]['key'])
         
-    mapped_champions = dict(zip(champNames,champKeys))    
+    mapped_champions = dict(zip(champKeys, champNames))    
     return mapped_champions
 
 
@@ -61,7 +61,7 @@ def KeyMap_summoner_spells():
         SummonerNames.append(value)
         SummonerKeys.append(summonerList[value]['key'])
         
-    mapped_summoners = dict(zip(SummonerNames,SummonerKeys))    
+    mapped_summoners = dict(zip(SummonerKeys, SummonerNames))    
     return mapped_summoners
 
 
@@ -169,10 +169,6 @@ class Summoner:
     
     Attributes include:
         .summonerId : players encrypted summoner Id
-        .leaguepoints : Lp the player currently has
-        .wins 
-        .losses
-        .hotstreak : If the player is on a winstreak
         .summonerName : Players display name in game
         .puuid : Players puuid
         .summonerLevel
@@ -189,12 +185,6 @@ class Summoner:
         #Looping through the ladder until a match is found with the input summoner id
         for value in challenger_ladder['entries']:
             if value['summonerId'] == self.summonerId:
-                
-                #Once correct player is found assign lp, wins, losses, winstreak, and ign to the player
-                self.leaguepoints = value['leaguePoints']
-                self.wins = value['wins']
-                self.losses = value['losses']
-                self.hotStreak = value['hotStreak']
                 self.summonerName = value['summonerName']
         
         #Finds all the accounts of the player in dictionary format
@@ -257,7 +247,6 @@ class Match_details:
         
         #Storing winning and losing team
         self.team1_win = self.team1['win']
-        self.team2_win = self.team2['win']
         
         #Storing bans for each team
         self.team1_bans = self.team1['bans']
@@ -293,11 +282,33 @@ class Match_details:
                 self.players = players
                 for value in self.players:
                     if value['summonerId'] == self.summoner_Id:
-                        self.Lane = value['individualPosition']
-                        self.championId = value['championId'] 
-                        self.teamId = value['teamId']
+                        
+                        #Tracking player information
                         self.summonerName = value['summonerName']
+                        self.Lane = value['individualPosition']
+                        self.teamId = value['teamId']
                         self.summonerLevel = value['summonerLevel']
+                        #Key mapping champion ids and summoner spells into names
+
+                        
+                        self.championid = str(value['championId'])
+                        
+                        
+                        self.summonerSpell1_id = value['summoner1Id']
+                        self.summonerSpell2_id = value['summoner2Id'] 
+                        
+                        
+                            
+                        #Getting in game stats (kills, deaths, assists, win, cs, pings, vision score)
+                        self.kills = value['kills']
+                        self.deaths = value['deaths']
+                        self.assists = value['assists']
+                        self.player_win = value['win']
+                        self.cs = value['totalMinionsKilled']
+                        self.pings = value['basicPings']
+                        self.vision_score = value['visionScore']
+                        
+                        #Assigning team names
                         if self.teamId == 100:
                             self.teamId = 'team1'
                         elif self.teamId == 200:
@@ -322,5 +333,5 @@ class Match_details:
         for i, summoner_Id in enumerate(self.summoner_Id):
             temp = 'Player' + str(i)
             self.player_position[temp] = Player(summoner_Id, self.players, api_key)
-            time.sleep(1.5)
+            time.sleep(14)
                 
