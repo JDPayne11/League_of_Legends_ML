@@ -4,6 +4,7 @@ from Functions_Classes import Functions as Fc
 import json
 
 api_key = Fc.getAPI_key()   
+print(api_key)
 KeyMap_Champions = Fc.KeyMap_Champions()
 KeyMap_summoner_spells = Fc.KeyMap_summoner_spells()
 #Getting challenger Ladder
@@ -16,7 +17,7 @@ for i in range(5):
     time.sleep(8)    
 
 print("Cooldown")
-time.sleep(120)
+time.sleep(130)
 #Getting matches for each player listed on the challenger ladder
 games = []
 for key in player_info:
@@ -32,14 +33,6 @@ for a in range(len(games)):
 total_games = list(set(total_games))
 print(total_games)
 
-# games = {}
-# for i, game in enumerate(total_games[0:2]):  
-#     temp = 'Game' + str(i)
-#     games[temp] = Fc.Match_details(game, api_key)
-#     print(i)
-#     time.sleep(130)
-
-final_list = []
 
 for game in total_games[0:2]:    
 
@@ -106,6 +99,7 @@ for game in total_games[0:2]:
         except:
             Champion = 'NULL'
             Players.append(champion)
+        Champion.append(game_details.Match_info['gameId'])
         Champion.append(game_details.player_position[player].kills)
         Champion.append(game_details.player_position[player].deaths)
         Champion.append(game_details.player_position[player].assists)
@@ -134,17 +128,25 @@ for game in total_games[0:2]:
 
         Teams.append(Bans)
 
-       
+    import csv  
+    with open('data/Games.csv', 'a') as f:
+        thewriter = csv.writer(f)
+        thewriter.writerow(game_info)
         
-    final_list.append(game_info)
-    final_list.append(Players_stats)
-    final_list.append(Champion_stats)
-    final_list.append(Teams)
-    print(final_list)
+    with open('data/Players.csv', 'a') as f:
+        thewriter = csv.writer(f)
+        thewriter.writerow(Players_stats)
+        
+    with open('data/Champion_stats.csv', 'a') as f:
+        thewriter = csv.writer(f)
+        thewriter.writerow(Champion_stats)
+        
+    with open('data/Teams.csv', 'a') as f:
+        thewriter = csv.writer(f)
+        thewriter.writerow(Teams)
+
     
-    
+    print('Game Finished')
     time.sleep(130)
 
     
-for game_info in final_list:
-    print(game_info)

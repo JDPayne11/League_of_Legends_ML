@@ -10,12 +10,12 @@ def getAPI_key():
     Returns my api key from the previous folder
     '''
     
-    f = open("../api_key.txt", "r")
+    with open("../api_key.txt", "r") as f:
     
-    return f.read()
+        return f.read()
 
 
-def check_status():    
+def check_status(api_key):    
     
     ''' 
     Returns the status of the riot API
@@ -315,6 +315,10 @@ class Match_details:
                             self.teamId = 'team2'
                 #Grabbing winrate/winstreak/rank/lp of the given player        
                 self.player_stats = get_player_stats(self.summoner_Id, api_key)
+                
+                if self.player_stats == 'status':
+                    time.sleep(130)
+                    
                 for queue in self.player_stats:
                     print(queue)
                     if queue['queueType'] == 'RANKED_SOLO_5x5':
@@ -333,5 +337,5 @@ class Match_details:
         for i, summoner_Id in enumerate(self.summoner_Id):
             temp = 'Player' + str(i)
             self.player_position[temp] = Player(summoner_Id, self.players, api_key)
-            time.sleep(14)
+            time.sleep(20)
                 
