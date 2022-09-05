@@ -211,7 +211,7 @@ for game in total_games:
 
     
     print('Game Finished')
-    time.sleep(20)
+    time.sleep(18)
         
 
     

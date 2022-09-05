@@ -1,2 +1,548 @@
 Game_ID,Win,Team_1_Bans,Team_2_Bans
 
+
+
+4404458402,False,"['Shaco', 'Camille', 'Taliyah', 'Draven', 'Yuumi']","['Draven', 'Graves', 'Vladimir', 'Kindred', 'Teemo']"
+
+4406353188,True,"['Qiyana', 'Kindred', 'Draven', 'Blitzcrank', 'Poppy']","['Yasuo', 'Taliyah', 'Rengar', 'Ashe', 'Kindred']"
+
+4406209323,True,"['Poppy', 'Kayn', 'Fiora', 'Katarina', 'Karthus']","['Yasuo', 'Yone', 'Pyke', 'Kindred', 'Aatrox']"
+
+4406221230,False,"['MasterYi', 'Draven', 'Azir', 'Olaf', 'Rengar']","['Draven', 'Kalista', 'Viktor', 'Fiora', 'NULL']"
+
+4401294929,False,"['Seraphine', 'Kindred', 'Diana', 'NULL', 'Fiora']","['Nunu', 'Draven', 'Seraphine', 'Fiddlesticks', 'Hecarim']"
+
+4404442813,True,"['MonkeyKing', 'Kalista', 'Kayn', 'Darius', 'Draven']","['Fiddlesticks', 'Camille', 'Evelynn', 'Azir', 'NULL']"
+
+4407028812,False,"['Draven', 'Kindred', 'Taliyah', 'Nidalee', 'Fiora']","['Fiora', 'Katarina', 'Kassadin', 'Kindred', 'Poppy']"
+
+4406827188,True,"['Fiora', 'Evelynn', 'Kindred', 'Graves', 'Draven']","['Kayn', 'NULL', 'Sylas', 'KogMaw', 'Gangplank']"
+
+4403065017,True,"['Kayn', 'Lillia', 'Yuumi', 'Kled', 'Fiora']","['MonkeyKing', 'Fiora', 'Kindred', 'Yone', 'Kled']"
+
+4407119391,True,"['Poppy', 'RekSai', 'Draven', 'Zed', 'Fiddlesticks']","['Camille', 'Sivir', 'Draven', 'Swain', 'Hecarim']"
+
+4407372850,True,"['Kindred', 'Graves', 'Taliyah', 'Yuumi', 'Yone']","['Draven', 'Katarina', 'Fiora', 'Talon', 'Poppy']"
+
+4402897937,False,"['Nilah', 'Renata', 'Graves', 'Karthus', 'Katarina']","['Kindred', 'Fiora', 'Qiyana', 'Kalista', 'NULL']"
+
+4403269132,False,"['Kayn', 'Kled', 'Twitch', 'Fiora', 'Yuumi']","['Kalista', 'NULL', 'Sivir', 'Sylas', 'Jax']"
+
+4406236362,True,"['Katarina', 'Yuumi', 'Draven', 'NULL', 'Viego']","['Draven', 'Kindred', 'Fiora', 'Vayne', 'Rengar']"
+
+4406814109,True,"['Tryndamere', 'NULL', 'Irelia', 'Samira', 'Sivir']","['Rengar', 'Yuumi', 'Belveth', 'Pyke', 'Taliyah']"
+
+4403191279,False,"['Tristana', 'NULL', 'Yuumi', 'NULL', 'Hecarim']","['MonkeyKing', 'Aatrox', 'Graves', 'Kindred', 'Sivir']"
+
+4405451713,True,"['Twitch', 'Pantheon', 'Darius', 'Zeri', 'Kayn']","['Jayce', 'Draven', 'Yuumi', 'Kindred', 'Evelynn']"
+
+4401465193,False,"['Kayn', 'Qiyana', 'Kindred', 'Yone', 'Zed']","['Renata', 'Kindred', 'Yuumi', 'Draven', 'Belveth']"
+
+4405841125,False,"['Tryndamere', 'Poppy', 'Kindred', 'Draven', 'Yuumi']","['Pyke', 'Draven', 'Rengar', 'Fiora', 'Kassadin']"
+
+4404100501,True,"['Pyke', 'Karthus', 'Aatrox', 'Fiora', 'Draven']","['Jax', 'NULL', 'Fiddlesticks', 'Yuumi', 'Pantheon']"
+
+4401297596,False,"['Sivir', 'Jax', 'MonkeyKing', 'Rengar', 'Fiora']","['Katarina', 'Diana', 'Kindred', 'Ashe', 'Draven']"
+
+4404432146,False,"['Draven', 'NULL', 'Illaoi', 'Malphite', 'Shaco']","['Tryndamere', 'Kindred', 'Kassadin', 'Renata', 'Graves']"
+
+4404806636,True,"['Sett', 'Draven', 'Irelia', 'Katarina', 'Jax']","['Yuumi', 'Yasuo', 'Sett', 'Draven', 'Fiora']"
+
+4403238141,True,"['Kled', 'Draven', 'Zed', 'Sivir', 'Taliyah']","['Draven', 'Pyke', 'Tristana', 'Kindred', 'Swain']"
+
+4401649754,False,"['Draven', 'Blitzcrank', 'Kindred', 'NULL', 'Sylas']","['Teemo', 'Kayn', 'Yuumi', 'Katarina', 'Akali']"
+
+4404041277,True,"['Karthus', 'Kindred', 'Draven', 'Camille', 'Seraphine']","['Riven', 'Sivir', 'MonkeyKing', 'Taliyah', 'Akali']"
+
+4405652857,True,"['Draven', 'MonkeyKing', 'Zed', 'Kalista', 'Camille']","['Kayn', 'Akali', 'Vayne', 'Yasuo', 'Kindred']"
+
+4404535694,False,"['Fiddlesticks', 'Twitch', 'Draven', 'Rengar', 'Gangplank']","['Fiora', 'Zeri', 'Garen', 'Hecarim', 'Yuumi']"
+
+4404806751,True,"['Jax', 'Sivir', 'Pyke', 'Yasuo', 'Kassadin']","['Blitzcrank', 'Draven', 'Akali', 'Teemo', 'Viego']"
+
+4404087337,True,"['Taric', 'Pyke', 'Amumu', 'Talon', 'Kindred']","['Fiora', 'Zed', 'Senna', 'NULL', 'Twitch']"
+
+4407151311,True,"['Sylas', 'Vladimir', 'Pyke', 'Tryndamere', 'Kayn']","['Graves', 'Talon', 'Pyke', 'NULL', 'Azir']"
+
+4404399273,True,"['Fiora', 'Nunu', 'NULL', 'Draven', 'Sivir']","['Nunu', 'Kindred', 'Renata', 'Elise', 'Yasuo']"
+
+4407283866,True,"['Ekko', 'Kindred', 'Kayn', 'Fiora', 'Yuumi']","['Draven', 'Riven', 'Rengar', 'Kalista', 'Kayn']"
+
+4403454332,False,"['Senna', 'Udyr', 'Camille', 'Qiyana', 'Draven']","['MonkeyKing', 'Draven', 'Leblanc', 'Vayne', 'Garen']"
+
+4403145788,False,"['Fiora', 'Kayn', 'Renata', 'Pyke', 'Pantheon']","['Graves', 'MonkeyKing', 'Kayn', 'Twitch', 'Sylas']"
+
+4405293982,True,"['Elise', 'Gangplank', 'Jax', 'Draven', 'Azir']","['Leblanc', 'Zeri', 'Nunu', 'Kled', 'Evelynn']"
+
+4407474476,True,"['Yuumi', 'Karma', 'MonkeyKing', 'Diana', 'Nidalee']","['Akshan', 'Kindred', 'Nilah', 'Draven', 'Fiora']"
+
+4404277073,False,"['Poppy', 'Qiyana', 'Fiora', 'Nunu', 'Ahri']","['Draven', 'Kayn', 'Darius', 'Kindred', 'Pyke']"
+
+4406360171,True,"['Jax', 'Draven', 'NULL', 'Soraka', 'Talon']","['NULL', 'Kassadin', 'Nunu', 'Poppy', 'Belveth']"
+
+4401224904,True,"['Fiora', 'Sivir', 'Jax', 'Gangplank', 'Hecarim']","['Kindred', 'NULL', 'Fiora', 'Kayn', 'Draven']"
+
+4406498765,True,"['Udyr', 'Kayn', 'Twitch', 'Pyke', 'Fiora']","['Belveth', 'Camille', 'Yuumi', 'Seraphine', 'Fiora']"
+
+4406750944,False,"['Draven', 'Jax', 'Katarina', 'Talon', 'Fiddlesticks']","['Leblanc', 'Jax', 'Xerath', 'NULL', 'NULL']"
+
+4404300889,True,"['Nunu', 'Draven', 'Fiora', 'Amumu', 'Kayn']","['Fiora', 'RekSai', 'Rengar', 'Fiddlesticks', 'Kayn']"
+
+4407104758,True,"['Yuumi', 'Kindred', 'Viktor', 'Akali', 'Draven']","['Yuumi', 'Fiora', 'Graves', 'Leblanc', 'Fiddlesticks']"
+
+4404804619,False,"['Udyr', 'Yasuo', 'Vex', 'Draven', 'Diana']","['Kassadin', 'Katarina', 'Zilean', 'Darius', 'Yuumi']"
+
+4405389337,False,"['Qiyana', 'Kindred', 'Katarina', 'Gangplank', 'Sivir']","['Fiddlesticks', 'Qiyana', 'Draven', 'Gangplank', 'Yuumi']"
+
+4406617377,False,"['Shaco', 'Draven', 'Fiddlesticks', 'Yone', 'Taliyah']","['Taliyah', 'Yone', 'Yuumi', 'Zilean', 'Fiora']"
+
+4406146923,False,"['Viktor', 'MonkeyKing', 'Draven', 'NULL', 'Tryndamere']","['Sivir', 'Kayn', 'Fiora', 'Zoe', 'NULL']"
+
+4402783387,False,"['Zed', 'Kindred', 'Darius', 'Pyke', 'Yuumi']","['Kindred', 'Rengar', 'Katarina', 'Yuumi', 'Tryndamere']"
+
+4401552860,False,"['Vayne', 'Jax', 'Taliyah', 'Yone', 'Qiyana']","['Taliyah', 'Sivir', 'Viktor', 'Karthus', 'Kindred']"
+
+4406230821,False,"['Draven', 'Jax', 'Janna', 'Pyke', 'Senna']","['Yuumi', 'NULL', 'Leblanc', 'Camille', 'Kayn']"
+
+4404259574,False,"['Draven', 'Sivir', 'Qiyana', 'Taliyah', 'Kindred']","['Kindred', 'Galio', 'Fiora', 'Kayn', 'Draven']"
+
+4403805942,False,"['Pantheon', 'NULL', 'Taric', 'Kindred', 'Yasuo']","['Teemo', 'Kalista', 'Draven', 'Akali', 'NULL']"
+
+4406016558,False,"['Lillia', 'Talon', 'Seraphine', 'Blitzcrank', 'Fiora']","['Camille', 'Yuumi', 'Kayn', 'Graves', 'Rengar']"
+
+4406364502,True,"['Kassadin', 'Akshan', 'Soraka', 'Gangplank', 'Belveth']","['Kindred', 'Leblanc', 'NULL', 'Yuumi', 'Kayn']"
+
+4403377426,True,"['Kayn', 'Galio', 'NULL', 'Kindred', 'Yone']","['Draven', 'Kalista', 'Camille', 'Ahri', 'Kindred']"
+
+4405237554,False,"['Fiora', 'Zilean', 'Graves', 'Draven', 'Pyke']","['Poppy', 'Nunu', 'Draven', 'Karthus', 'Zeri']"
+
+4405518493,False,"['Jax', 'Draven', 'Yone', 'Azir', 'Yuumi']","['Zilean', 'Darius', 'Vex', 'Draven', 'Pyke']"
+
+4407195884,False,"['Yuumi', 'Katarina', 'Kindred', 'Draven', 'Yone']","['Kindred', 'Nautilus', 'Riven', 'Draven', 'Yuumi']"
+
+4407585175,True,"['Vladimir', 'Rengar', 'Sivir', 'Jax', 'Yuumi']","['Teemo', 'Sivir', 'Graves', 'Katarina', 'Yone']"
+
+4402698011,False,"['Fiddlesticks', 'Sivir', 'Kayn', 'Kindred', 'Karthus']","['Tryndamere', 'Yuumi', 'Kindred', 'Sivir', 'Teemo']"
+
+4406656661,True,"['Kindred', 'Gragas', 'Azir', 'Fiddlesticks', 'Kassadin']","['Kayn', 'Jax', 'Evelynn', 'Draven', 'Pyke']"
+
+4406159650,True,"['Kindred', 'Yasuo', 'Sivir', 'Darius', 'Udyr']","['Jax', 'Katarina', 'Vayne', 'Yone', 'Nunu']"
+
+4405629469,True,"['MonkeyKing', 'Rengar', 'Kassadin', 'Ivern', 'Gangplank']","['Yasuo', 'Taric', 'Garen', 'Kalista', 'Kindred']"
+
+4402468412,True,"['KogMaw', 'Karthus', 'Sivir', 'Pantheon', 'Fiora']","['Sivir', 'Karthus', 'Draven', 'Rengar', 'Fiora']"
+
+4406313337,False,"['Sivir', 'Leblanc', 'Kindred', 'Fiddlesticks', 'Aatrox']","['Kalista', 'Riven', 'Hecarim', 'Draven', 'Poppy']"
+
+4405817238,True,"['Yuumi', 'Leblanc', 'Cassiopeia', 'Graves', 'Draven']","['NULL', 'NULL', 'Yuumi', 'Draven', 'Yasuo']"
+
+4404716938,False,"['Kindred', 'Kalista', 'Draven', 'Rengar', 'Pyke']","['Seraphine', 'Jax', 'Poppy', 'Renata', 'Riven']"
+
+4404634223,False,"['Sivir', 'Ashe', 'Irelia', 'Diana', 'LeeSin']","['Draven', 'Karthus', 'Yuumi', 'Sylas', 'Seraphine']"
+
+4402564345,False,"['Katarina', 'Ashe', 'Kindred', 'Senna', 'Camille']","['Draven', 'Seraphine', 'Yasuo', 'Yone', 'Ahri']"
+
+4401660753,False,"['Diana', 'Blitzcrank', 'Sylas', 'Draven', 'Fiora']","['Camille', 'Kindred', 'Taric', 'Qiyana', 'MonkeyKing']"
+
+4402574563,True,"['Sivir', 'Kindred', 'Senna', 'Kassadin', 'Yuumi']","['Fiora', 'Draven', 'Kindred', 'Sylas', 'Kalista']"
+
+4405751211,True,"['Yasuo', 'Akali', 'Rengar', 'Fiora', 'Pyke']","['Sona', 'Graves', 'Leblanc', 'Karthus', 'Yuumi']"
+
+4404424732,True,"['Draven', 'Zac', 'Kindred', 'NULL', 'Galio']","['Diana', 'Pyke', 'Nunu', 'Vayne', 'Karthus']"
+
+4404474017,True,"['Rengar', 'Kassadin', 'NULL', 'Yuumi', 'Draven']","['Fiora', 'Kassadin', 'Fiddlesticks', 'Amumu', 'Draven']"
+
+4400956349,True,"['Pyke', 'Graves', 'Kassadin', 'Draven', 'Renata']","['Nidalee', 'NULL', 'Pyke', 'Neeko', 'Fiddlesticks']"
+
+4404469123,True,"['Yasuo', 'Poppy', 'Vladimir', 'Rengar', 'Yone']","['Leona', 'MasterYi', 'Twitch', 'Karthus', 'Teemo']"
+
+4402408888,True,"['Yuumi', 'Graves', 'Zed', 'Nunu', 'Draven']","['Draven', 'Qiyana', 'Pantheon', 'Pyke', 'Graves']"
+
+4404377576,True,"['NULL', 'Camille', 'Belveth', 'Pantheon', 'Kayn']","['Vayne', 'Graves', 'Leblanc', 'Zilean', 'Kindred']"
+
+4406104943,False,"['MonkeyKing', 'Cassiopeia', 'Zoe', 'Gangplank', 'Kindred']","['Kindred', 'Kayn', 'Riven', 'Fiora', 'Nautilus']"
+
+4406246109,False,"['Rengar', 'Kayn', 'Graves', 'Draven', 'Karthus']","['Jax', 'Yuumi', 'Cassiopeia', 'Nilah', 'Qiyana']"
+
+4406114083,False,"['MonkeyKing', 'Gnar', 'Lulu', 'Akali', 'Zed']","['Draven', 'Fiddlesticks', 'Fiora', 'Kled', 'NULL']"
+
+4403561712,True,"['Draven', 'Graves', 'Garen', 'Vayne', 'Pyke']","['Garen', 'Soraka', 'Vayne', 'Kindred', 'Nilah']"
+
+4405686589,True,"['Sylas', 'Gangplank', 'Kayn', 'Kalista', 'Draven']","['Gangplank', 'Evelynn', 'Kayn', 'Yuumi', 'Zac']"
+
+4402586941,True,"['MonkeyKing', 'Sylas', 'Kayn', 'Pyke', 'Nilah']","['Draven', 'Fiddlesticks', 'MonkeyKing', 'Fiora', 'Rengar']"
+
+4414375789,True,"['Sivir', 'Kayn', 'Caitlyn', 'Taliyah', 'Gangplank']","['Draven', 'Shaco', 'Sivir', 'Yasuo', 'Jax']"
+
+4413146857,False,"['Akali', 'Jax', 'Yasuo', 'Kindred', 'Yuumi']","['Nunu', 'Kindred', 'Draven', 'Fiora', 'Sylas']"
+
+4413464263,True,"['Draven', 'Teemo', 'Poppy', 'Renata', 'Nautilus']","['Yasuo', 'Garen', 'Draven', 'Yuumi', 'Shaco']"
+
+4411131420,False,"['Karthus', 'Kayn', 'LeeSin', 'Kassadin', 'Graves']","['Fiora', 'Yasuo', 'Azir', 'Karma', 'Yuumi']"
+
+4411271383,True,"['Graves', 'Thresh', 'Draven', 'Akshan', 'Leblanc']","['Nunu', 'Jax', 'Kindred', 'Draven', 'Nilah']"
+
+4413387636,False,"['Draven', 'Yuumi', 'Darius', 'Sivir', 'Yone']","['Draven', 'Fiora', 'Twitch', 'Qiyana', 'Kalista']"
+
+4413262367,False,"['Renata', 'Yuumi', 'Shaco', 'Katarina', 'Cassiopeia']","['Kayn', 'Kindred', 'Poppy', 'Kalista', 'Zoe']"
+
+4414063754,True,"['Graves', 'Qiyana', 'Garen', 'Karthus', 'Pyke']","['Fiddlesticks', 'Kindred', 'Pyke', 'Zeri', 'Jax']"
+
+4413563750,True,"['Draven', 'Fiddlesticks', 'Gragas', 'Syndra', 'NULL']","['Graves', 'Yuumi', 'Draven', 'Kindred', 'Jax']"
+
+4412212384,False,"['Poppy', 'Kindred', 'Rengar', 'Sivir', 'Malphite']","['Kindred', 'Akshan', 'Akali', 'Draven', 'Trundle']"
+
+4412428772,False,"['Fiora', 'Fiddlesticks', 'Kassadin', 'Pyke', 'Draven']","['Jax', 'Draven', 'Yasuo', 'Kindred', 'Sylas']"
+
+4414189565,False,"['Pyke', 'Yuumi', 'Renata', 'Darius', 'Azir']","['Aatrox', 'RekSai', 'Kindred', 'Kayn', 'Nautilus']"
+
+4411257196,True,"['NULL', 'MasterYi', 'Yasuo', 'Camille', 'Yone']","['Soraka', 'Zed', 'Khazix', 'Sivir', 'Fiora']"
+
+4411779585,True,"['Garen', 'Kayn', 'Draven', 'Samira', 'NULL']","['Draven', 'Kayn', 'NULL', 'Kindred', 'Leblanc']"
+
+4412584428,False,"['Kindred', 'NULL', 'Teemo', 'Heimerdinger', 'Belveth']","['Fiddlesticks', 'Kassadin', 'Kindred', 'Nilah', 'Ashe']"
+
+4410938586,False,"['Fiddlesticks', 'Taric', 'Malphite', 'Karma', 'Vex']","['Malphite', 'XinZhao', 'Draven', 'Sylas', 'Sivir']"
+
+4413556397,False,"['Draven', 'Rengar', 'Kassadin', 'Fiora', 'Sivir']","['Draven', 'Aatrox', 'Nunu', 'Karthus', 'Qiyana']"
+
+4414394192,False,"['Fiddlesticks', 'Kalista', 'Draven', 'Rengar', 'Swain']","['Yone', 'Lillia', 'Talon', 'Zeri', 'Draven']"
+
+4409477435,True,"['Draven', 'Lucian', 'Kassadin', 'Yuumi', 'Kindred']","['Draven', 'Sivir', 'Viktor', 'Blitzcrank', 'Qiyana']"
+
+4411345870,True,"['Qiyana', 'Fiora', 'Ahri', 'Irelia', 'Kindred']","['Pyke', 'Draven', 'Poppy', 'Karthus', 'Qiyana']"
+
+4413188147,True,"['Vladimir', 'Graves', 'Jax', 'Draven', 'Yuumi']","['Yasuo', 'Xerath', 'Zed', 'Sivir', 'Garen']"
+
+4412857479,True,"['Draven', 'Qiyana', 'Gragas', 'Belveth', 'Yuumi']","['Yuumi', 'Draven', 'Kayn', 'LeeSin', 'MonkeyKing']"
+
+4412930268,True,"['Kayn', 'Neeko', 'Fiora', 'Yasuo', 'Draven']","['Draven', 'Olaf', 'NULL', 'Qiyana', 'Sivir']"
+
+4411164538,False,"['NULL', 'Sivir', 'Kayle', 'Irelia', 'Karthus']","['Nunu', 'Nidalee', 'Sejuani', 'Poppy', 'Draven']"
+
+4408140376,False,"['Draven', 'MasterYi', 'Zilean', 'Kindred', 'Twitch']","['Fiora', 'Poppy', 'Tristana', 'Taric', 'Kindred']"
+
+4409655609,True,"['Qiyana', 'Hecarim', 'Twitch', 'Pyke', 'Draven']","['Kindred', 'Yuumi', 'Irelia', 'Azir', 'Fiora']"
+
+4414098148,False,"['Taric', 'Draven', 'Azir', 'Zilean', 'Sylas']","['Fiora', 'Zoe', 'Vayne', 'Graves', 'Kindred']"
+
+4411356608,True,"['Samira', 'Draven', 'Vladimir', 'Yone', 'Kayn']","['Draven', 'Azir', 'Fiora', 'Tryndamere', 'Yuumi']"
+
+4410484603,False,"['Poppy', 'Trundle', 'Belveth', 'Akshan', 'Teemo']","['Sivir', 'Yuumi', 'Draven', 'Vex', 'Nautilus']"
+
+4413747045,True,"['Fiora', 'Jax', 'Yuumi', 'Shaco', 'Draven']","['LeeSin', 'Pyke', 'Draven', 'AurelionSol', 'Graves']"
+
+4412488961,True,"['Fiddlesticks', 'Draven', 'NULL', 'Sona', 'Yuumi']","['Pantheon', 'Kalista', 'Zilean', 'Karma', 'Teemo']"
+
+4413100847,False,"['Draven', 'Vladimir', 'Senna', 'Pantheon', 'Nunu']","['Cassiopeia', 'Kayn', 'Rengar', 'NULL', 'Draven']"
+
+4412883031,False,"['Rengar', 'Kalista', 'Lillia', 'Zilean', 'Belveth']","['Karthus', 'Draven', 'Kayn', 'Teemo', 'Poppy']"
+
+4414385099,False,"['Tryndamere', 'Sivir', 'Zeri', 'Kled', 'Pantheon']","['Kindred', 'Draven', 'Janna', 'Jax', 'Kayn']"
+
+4412434116,True,"['Ahri', 'Renekton', 'Draven', 'Taric', 'Kindred']","['NULL', 'Kindred', 'Nunu', 'Yuumi', 'Gangplank']"
+
+4414468219,True,"['Poppy', 'Lulu', 'Jax', 'Yuumi', 'Taric']","['Vladimir', 'Pyke', 'Poppy', 'Diana', 'Jhin']"
+
+4414098148,False,"['Taric', 'Draven', 'Azir', 'Zilean', 'Sylas']","['Fiora', 'Zoe', 'Vayne', 'Graves', 'Kindred']"
+
+4408097397,False,"['NULL', 'Zed', 'Poppy', 'Yasuo', 'Pyke']","['Pantheon', 'Draven', 'Kindred', 'Yasuo', 'Karthus']"
+
+4410255700,False,"['Rakan', 'Yuumi', 'Fiora', 'Taric', 'Lucian']","['Kalista', 'Draven', 'Taliyah', 'Kindred', 'Twitch']"
+
+4410753067,True,"['Katarina', 'Diana', 'Draven', 'Elise', 'Yuumi']","['Cassiopeia', 'Kayn', 'Draven', 'Kled', 'Rengar']"
+
+4413628091,False,"['Kindred', 'Akali', 'Kassadin', 'Pyke', 'Darius']","['AurelionSol', 'Kindred', 'Draven', 'Blitzcrank', 'Yuumi']"
+
+4413883005,True,"['Graves', 'Kindred', 'Akshan', 'Draven', 'Diana']","['Diana', 'Zed', 'Olaf', 'Qiyana', 'Karthus']"
+
+4410342713,True,"['Gangplank', 'Kindred', 'Kayn', 'Leblanc', 'Yuumi']","['Twitch', 'Yuumi', 'Draven', 'Taric', 'Akali']"
+
+4411202893,False,"['Evelynn', 'Fiora', 'Senna', 'Bard', 'Tryndamere']","['Evelynn', 'Kindred', 'Malphite', 'Leblanc', 'Yuumi']"
+
+4410881085,False,"['Sylas', 'Pyke', 'Azir', 'Draven', 'MonkeyKing']","['Sivir', 'Aatrox', 'Leblanc', 'Samira', 'Kindred']"
+
+4413909093,True,"['Azir', 'Draven', 'Darius', 'Rengar', 'Pyke']","['Draven', 'Kalista', 'Yuumi', 'Kindred', 'Aatrox']"
+
+4410976740,True,"['Jax', 'Nunu', 'Zilean', 'Sivir', 'Yuumi']","['Zilean', 'Nunu', 'Neeko', 'Yuumi', 'Fiora']"
+
+4409844613,False,"['Kalista', 'Darius', 'Shaco', 'Katarina', 'Pyke']","['Kindred', 'Tryndamere', 'Yuumi', 'Graves', 'Yasuo']"
+
+4410757281,True,"['Gangplank', 'Draven', 'Kalista', 'Anivia', 'Azir']","['Azir', 'Zeri', 'MasterYi', 'Nautilus', 'Vladimir']"
+
+4413179478,True,"['Yuumi', 'Kindred', 'Cassiopeia', 'Karthus', 'Lulu']","['Yuumi', 'Draven', 'Yone', 'Fiora', 'Kayn']"
+
+4414247528,True,"['Talon', 'Yuumi', 'Tryndamere', 'Irelia', 'Draven']","['Akali', 'Gangplank', 'Viktor', 'Bard', 'Riven']"
+
+4413610497,False,"['Kalista', 'NULL', 'Akali', 'Kayn', 'Belveth']","['Kalista', 'Zilean', 'Malphite', 'NULL', 'NULL']"
+
+4413781845,True,"['Draven', 'Sivir', 'Akali', 'Qiyana', 'RekSai']","['Yone', 'Leblanc', 'Fiora', 'Twitch', 'Ahri']"
+
+4410111276,True,"['Yuumi', 'Tryndamere', 'Kindred', 'Pantheon', 'NULL']","['Fiddlesticks', 'Yuumi', 'Yone', 'Akali', 'Kayn']"
+
+4413676739,False,"['Akshan', 'Kindred', 'Ezreal', 'Azir', 'Diana']","['Neeko', 'Poppy', 'Pyke', 'Diana', 'Jax']"
+
+4413326815,False,"['Nilah', 'Draven', 'Malphite', 'Taric', 'Poppy']","['Yone', 'Taric', 'Sylas', 'Yasuo', 'Jax']"
+
+4414820873,True,"['Kalista', 'Malphite', 'Kindred', 'Graves', 'Leblanc']","['Rengar', 'Fiddlesticks', 'Draven', 'Yone', 'Caitlyn']"
+
+4411982469,True,"['Fiora', 'Fiddlesticks', 'Vex', 'Kassadin', 'Sivir']","['Soraka', 'Pyke', 'Yuumi', 'Rengar', 'Riven']"
+
+4411795456,True,"['Yuumi', 'Kindred', 'Darius', 'Draven', 'Kassadin']","['Graves', 'Elise', 'Draven', 'Fiddlesticks', 'Kayn']"
+
+4411152918,False,"['Nunu', 'Fiora', 'Caitlyn', 'Katarina', 'Sivir']","['Yuumi', 'Fiora', 'Kassadin', 'Draven', 'Rengar']"
+
+4408529529,True,"['Soraka', 'Yuumi', 'Yone', 'Draven', 'Sylas']","['RekSai', 'Kalista', 'Nunu', 'Draven', 'Tryndamere']"
+
+4410425992,True,"['Azir', 'Blitzcrank', 'Jax', 'Diana', 'Kindred']","['Rengar', 'Trundle', 'Yuumi', 'Draven', 'Nautilus']"
+
+4413421868,True,"['Lulu', 'Karthus', 'Leblanc', 'Draven', 'Fiora']","['Talon', 'Poppy', 'Senna', 'Kayn', 'Teemo']"
+
+4412738870,True,"['Draven', 'Fiora', 'NULL', 'Gnar', 'Shaco']","['Rengar', 'Vex', 'Yuumi', 'NULL', 'Janna']"
+
+4414180772,False,"['Jax', 'Draven', 'Kalista', 'Kayn', 'Sivir']","['Sivir', 'Kindred', 'Aatrox', 'Kalista', 'Xerath']"
+
+4412714106,True,"['Graves', 'NULL', 'Kayn', 'Darius', 'Karma']","['Draven', 'Olaf', 'Graves', 'Hecarim', 'Qiyana']"
+4410250352,True,"['Graves', 'Nunu', 'Draven', 'Fiora', 'Kassadin']","['Leblanc', 'Sona', 'Sivir', 'Yone', 'Darius']"
+4412482993,True,"['Twitch', 'Yuumi', 'Kindred', 'Darius', 'Diana']","['Kindred', 'Qiyana', 'Draven', 'Jax', 'Irelia']"
+4414883911,True,"['Diana', 'Sivir', 'Graves', 'Caitlyn', 'Riven']","['Pyke', 'Aatrox', 'Draven', 'Ekko', 'Qiyana']"
+4410992411,True,"['Fiora', 'Taric', 'Nautilus', 'Yuumi', 'Leblanc']","['Sivir', 'Rakan', 'Gangplank', 'Kassadin', 'Irelia']"
+4414714717,False,"['Leblanc', 'Karthus', 'Draven', 'Pyke', 'Graves']","['Viktor', 'Tryndamere', 'Draven', 'Nunu', 'Renata']"
+4414167803,True,"['Fiddlesticks', 'Talon', 'Yuumi', 'Ahri', 'Graves']","['Senna', 'Vex', 'Sona', 'Kayn', 'Poppy']"
+4412440828,True,"['Kindred', 'Camille', 'Sivir', 'NULL', 'Talon']","['Graves', 'Kindred', 'Sylas', 'Azir', 'Fiora']"
+4413070653,False,"['Fiddlesticks', 'Diana', 'Graves', 'MonkeyKing', 'Kayn']","['Kindred', 'Riven', 'Lulu', 'Draven', 'Irelia']"
+4413794024,False,"['Belveth', 'Fiora', 'Singed', 'Kayn', 'Viktor']","['Kindred', 'Gangplank', 'Draven', 'Yuumi', 'Lulu']"
+4412025888,False,"['Darius', 'Draven', 'Fiora', 'Akali', 'Yuumi']","['Kalista', 'Yone', 'Kindred', 'Taric', 'Sivir']"
+4411884029,False,"['Jax', 'Kindred', 'Yuumi', 'Qiyana', 'Draven']","['Darius', 'Renata', 'Diana', 'Viktor', 'Draven']"
+4409383697,False,"['Malphite', 'Kayn', 'Kindred', 'Poppy', 'Kalista']","['Draven', 'MonkeyKing', 'Zac', 'Darius', 'Leblanc']"
+4412099860,True,"['Fiddlesticks', 'Sylas', 'Draven', 'Akshan', 'Xerath']","['Garen', 'Diana', 'Kindred', 'Jax', 'Draven']"
+4409447951,False,"['Draven', 'Syndra', 'Kayn', 'Malphite', 'Alistar']","['Udyr', 'Kassadin', 'Draven', 'Malphite', 'Teemo']"
+4414294259,True,"['Sivir', 'Draven', 'Jax', 'Qiyana', 'Rengar']","['Yuumi', 'Graves', 'Zed', 'Zac', 'Kayn']"
+4413088043,False,"['Fiora', 'Draven', 'Twitch', 'Kindred', 'Graves']","['Pyke', 'Draven', 'Fiora', 'Pantheon', 'Sylas']"
+4413112752,True,"['Vladimir', 'Draven', 'Nunu', 'Kindred', 'Kayn']","['Draven', 'Sylas', 'Kindred', 'Evelynn', 'Fiddlesticks']"
+4413270575,False,"['Yasuo', 'Viktor', 'Zilean', 'Yone', 'Sivir']","['Talon', 'Sivir', 'Taric', 'Rengar', 'Katarina']"
+4413305705,True,"['Vayne', 'Yuumi', 'Graves', 'Draven', 'Qiyana']","['Fiora', 'Yuumi', 'Vayne', 'Akali', 'Draven']"
+4414866145,False,"['Viktor', 'Sylas', 'Draven', 'Qiyana', 'Leblanc']","['Nilah', 'Sivir', 'Pyke', 'Yuumi', 'Tryndamere']"
+4414700778,True,"['Tryndamere', 'Draven', 'NULL', 'Yuumi', 'Fiddlesticks']","['Yuumi', 'Graves', 'Pyke', 'Kindred', 'Teemo']"
+4408312891,True,"['Seraphine', 'Draven', 'Yuumi', 'Karthus', 'Akshan']","['Jax', 'Zed', 'Gangplank', 'MasterYi', 'Draven']"
+4410341503,True,"['Yuumi', 'Qiyana', 'Yone', 'Kayn', 'Katarina']","['NULL', 'Yasuo', 'Rengar', 'Draven', 'Belveth']"
+4411202045,True,"['Draven', 'Xerath', 'Pyke', 'Lulu', 'LeeSin']","['Xerath', 'Qiyana', 'Pyke', 'Fiora', 'Jax']"
+4408226920,False,"['Pantheon', 'Jax', 'Draven', 'NULL', 'Graves']","['Darius', 'NULL', 'Graves', 'Garen', 'Yuumi']"
+4409608070,False,"['Tryndamere', 'Yuumi', 'Qiyana', 'Kayn', 'Kindred']","['Nautilus', 'Vex', 'Sivir', 'Kayn', 'Belveth']"
+4411432452,False,"['Kindred', 'Draven', 'Samira', 'Belveth', 'Zoe']","['Rengar', 'Draven', 'Zed', 'Kayn', 'Yuumi']"
+4408629878,True,"['Fiora', 'Katarina', 'Draven', 'Talon', 'Rengar']","['Bard', 'Poppy', 'Teemo', 'Vladimir', 'Zed']"
+4413472525,True,"['Fiora', 'Kled', 'Kindred', 'Syndra', 'Pantheon']","['Vayne', 'Azir', 'Belveth', 'Draven', 'Aatrox']"
+4412617262,False,"['Belveth', 'Fiddlesticks', 'Leblanc', 'Jax', 'Draven']","['Fiddlesticks', 'Pyke', 'Yuumi', 'Draven', 'Yone']"
+4411946279,False,"['Azir', 'Aatrox', 'NULL', 'Kayn', 'Akshan']","['Zilean', 'Draven', 'Bard', 'Lillia', 'Taric']"
+4408176790,True,"['Belveth', 'Fiddlesticks', 'Fiora', 'Yasuo', 'Sivir']","['Qiyana', 'Seraphine', 'Poppy', 'Fiddlesticks', 'Fiora']"
+4412367185,True,"['Twitch', 'Sivir', 'Yuumi', 'Draven', 'Graves']","['NULL', 'Gnar', 'Kassadin', 'Sivir', 'Graves']"
+4409612920,False,"['Renata', 'Zed', 'Pyke', 'Draven', 'Karthus']","['Vayne', 'Teemo', 'Pyke', 'Leblanc', 'Draven']"
+4412671583,False,"['Kalista', 'Fiddlesticks', 'Jax', 'Sivir', 'Draven']","['Draven', 'Yuumi', 'Lulu', 'MonkeyKing', 'Pyke']"
+4411243157,False,"['Pyke', 'Fiora', 'Nidalee', 'Kassadin', 'MonkeyKing']","['Malphite', 'Yone', 'Graves', 'Yasuo', 'Draven']"
+4414702142,False,"['Kayn', 'Zeri', 'NULL', 'Draven', 'Akali']","['Draven', 'Fiora', 'Renata', 'Fiddlesticks', 'Katarina']"
+4409392114,False,"['Lucian', 'Poppy', 'Kayn', 'Draven', 'Fiora']","['Pyke', 'Graves', 'Diana', 'Kayn', 'NULL']"
+4412202957,True,"['Rumble', 'Zoe', 'Jax', 'Viktor', 'Taric']","['Vladimir', 'Taric', 'Rumble', 'Fiora', 'Nidalee']"
+4411961381,True,"['Vladimir', 'Fiora', 'Shaco', 'Heimerdinger', 'Yuumi']","['Fiora', 'Samira', 'Kindred', 'Leblanc', 'Qiyana']"
+4413295466,True,"['Yuumi', 'Teemo', 'Seraphine', 'Tryndamere', 'Nunu']","['Heimerdinger', 'Akshan', 'Draven', 'Taric', 'Nunu']"
+4409656743,False,"['Draven', 'Kalista', 'Rengar', 'Zeri', 'Fiora']","['Pyke', 'Syndra', 'Poppy', 'Yone', 'Karthus']"
+4410318693,True,"['Draven', 'Yuumi', 'NULL', 'Katarina', 'Poppy']","['Nilah', 'Fiora', 'Leblanc', 'Twitch', 'Ahri']"
+4414029557,True,"['Twitch', 'Draven', 'Garen', 'Bard', 'Yuumi']","['Draven', 'Zac', 'Yuumi', 'Leblanc', 'Shaco']"
+4411319278,True,"['Kalista', 'Draven', 'Kindred', 'Sivir', 'Rengar']","['Syndra', 'Yuumi', 'Vladimir', 'Evelynn', 'Lucian']"
+4409497545,False,"['Poppy', 'Pyke', 'Viego', 'Sivir', 'Kassadin']","['Zed', 'Kalista', 'NULL', 'Rengar', 'MonkeyKing']"
+4411215220,False,"['NULL', 'MonkeyKing', 'Fiora', 'Nautilus', 'Kayn']","['Irelia', 'Sivir', 'NULL', 'Zed', 'Yuumi']"
+4414483001,True,"['NULL', 'Kindred', 'Talon', 'NULL', 'Belveth']","['Rengar', 'Sivir', 'Kindred', 'Graves', 'Ashe']"
+4409334522,False,"['Taliyah', 'Sivir', 'Zed', 'Draven', 'NULL']","['Nautilus', 'Samira', 'Aatrox', 'Ekko', 'Yone']"
+4409430603,False,"['Sivir', 'Pyke', 'Kindred', 'Rengar', 'Renata']","['Draven', 'Yasuo', 'Sivir', 'Rengar', 'NULL']"
+4413869222,False,"['Camille', 'Zed', 'Katarina', 'Alistar', 'Qiyana']","['Zed', 'Fiora', 'Vladimir', 'Draven', 'Yuumi']"
+4408976897,False,"['Kindred', 'Sylas', 'Draven', 'Pyke', 'Jax']","['Renekton', 'Pyke', 'Sivir', 'Akali', 'Sylas']"
+4409295321,True,"['Kayn', 'Draven', 'Kindred', 'Diana', 'Sivir']","['Viego', 'Kindred', 'Yuumi', 'Seraphine', 'Riven']"
+4412267270,False,"['Qiyana', 'Yuumi', 'Fiora', 'Graves', 'Zed']","['Yuumi', 'Cassiopeia', 'Sylas', 'Sivir', 'Fiora']"
+4410911529,True,"['Kayn', 'Garen', 'Pyke', 'Draven', 'Sylas']","['Draven', 'Azir', 'Fiora', 'Kassadin', 'Yuumi']"
+4409905948,False,"['Trundle', 'Draven', 'Ornn', 'Vladimir', 'Vayne']","['Kassadin', 'Fiora', 'Draven', 'NULL', 'Yuumi']"
+4411057202,False,"['NULL', 'Seraphine', 'Jax', 'Amumu', 'Ekko']","['Aatrox', 'Qiyana', 'Sivir', 'Azir', 'Talon']"
+4413063646,False,"['Kayn', 'Kalista', 'Zeri', 'Teemo', 'Draven']","['Yasuo', 'Irelia', 'Draven', 'Poppy', 'Rengar']"
+4411914362,True,"['Poppy', 'Kassadin', 'Fiora', 'Draven', 'Nautilus']","['NULL', 'Yuumi', 'Gangplank', 'Poppy', 'Draven']"
+4412219155,False,"['Yuumi', 'Seraphine', 'Draven', 'Jax', 'Kayn']","['Kalista', 'Kled', 'Pantheon', 'Graves', 'Draven']"
+4412728179,False,"['Nunu', 'Shaco', 'Belveth', 'Olaf', 'Rengar']","['Graves', 'Darius', 'Ziggs', 'Kalista', 'Pyke']"
+4408955842,False,"['Nautilus', 'Poppy', 'Draven', 'Kindred', 'NULL']","['Draven', 'Syndra', 'Kindred', 'Zilean', 'Fiora']"
+4410592416,False,"['Gwen', 'Yasuo', 'Draven', 'Poppy', 'Yuumi']","['Twitch', 'Pyke', 'Syndra', 'Fiora', 'Rengar']"
+4413553323,True,"['Akshan', 'Yasuo', 'Graves', 'Jax', 'Draven']","['Nidalee', 'Kalista', 'Katarina', 'Diana', 'NULL']"
+4409909107,True,"['Belveth', 'Kindred', 'Draven', 'Yuumi', 'Gragas']","['Nilah', 'Jax', 'Ashe', 'Kayn', 'Sylas']"
+4408231084,True,"['Kindred', 'Lulu', 'Poppy', 'Braum', 'Jax']","['Sylas', 'Fiddlesticks', 'Poppy', 'Twitch', 'Gangplank']"
+4412666262,True,"['Darius', 'Zed', 'Pyke', 'Draven', 'NULL']","['Rengar', 'Draven', 'NULL', 'Olaf', 'Karthus']"
+4412386724,False,"['Alistar', 'Qiyana', 'Draven', 'Yuumi', 'Tryndamere']","['Yuumi', 'Kled', 'Graves', 'Taric', 'Kindred']"
+4413178382,True,"['Syndra', 'Velkoz', 'Twitch', 'Azir', 'Poppy']","['Draven', 'Sylas', 'Zilean', 'Fiora', 'Nidalee']"
+4410574511,True,"['Fiora', 'Kindred', 'Zilean', 'Taliyah', 'Twitch']","['Ahri', 'Karthus', 'Graves', 'Katarina', 'Yuumi']"
+4412212384,False,"['Poppy', 'Kindred', 'Rengar', 'Sivir', 'Malphite']","['Kindred', 'Akshan', 'Akali', 'Draven', 'Trundle']"
+4408176116,False,"['Yuumi', 'Yone', 'Twitch', 'Fiora', 'Sivir']","['Diana', 'Zeri', 'Katarina', 'Cassiopeia', 'Blitzcrank']"
+4414008113,True,"['Kindred', 'Yasuo', 'Jax', 'Nilah', 'NULL']","['Poppy', 'Kalista', 'NULL', 'Yuumi', 'Draven']"
+4413339924,False,"['NULL', 'Taric', 'Alistar', 'Yuumi', 'Qiyana']","['Blitzcrank', 'Kindred', 'Camille', 'Kayn', 'Draven']"
+4412205978,True,"['Kalista', 'Azir', 'Taric', 'Draven', 'Pyke']","['Vi', 'Akali', 'Tryndamere', 'Diana', 'Sivir']"
+4409871571,False,"['Yuumi', 'Pyke', 'Darius', 'Nilah', 'NULL']","['Gangplank', 'Katarina', 'Jax', 'Tryndamere', 'Yuumi']"
+4413884004,False,"['Fiora', 'NULL', 'Rengar', 'Kalista', 'Belveth']","['Renata', 'Poppy', 'Riven', 'Karthus', 'Pyke']"
+4412115539,False,"['Zed', 'Ashe', 'Darius', 'Kindred', 'Fiddlesticks']","['Sivir', 'Fiora', 'Draven', 'Kindred', 'Sona']"
+4414652608,True,"['Draven', 'Fiora', 'Kindred', 'NULL', 'Sejuani']","['Taric', 'Draven', 'Sivir', 'NULL', 'Malphite']"
+4413635666,False,"['Teemo', 'Ziggs', 'Draven', 'Kayn', 'Karthus']","['Fiora', 'Poppy', 'Lux', 'Qiyana', 'Kalista']"
+4412273473,False,"['Zilean', 'Katarina', 'Thresh', 'Karthus', 'Garen']","['Vladimir', 'Camille', 'Rakan', 'Kindred', 'Sivir']"
+4407780540,False,"['Kindred', 'Zed', 'Pyke', 'Diana', 'Sivir']","['Sylas', 'Blitzcrank', 'Graves', 'Fiora', 'Seraphine']"
+4412323516,True,"['Yuumi', 'NULL', 'Ashe', 'Kassadin', 'Gragas']","['Zed', 'Talon', 'Nautilus', 'Akali', 'Fiddlesticks']"
+4414265811,True,"['NULL', 'Zoe', 'Draven', 'Yone', 'Fiora']","['Annie', 'Rengar', 'Qiyana', 'Seraphine', 'Fiora']"
+4412317194,False,"['Pyke', 'Rengar', 'Fiora', 'Kassadin', 'Aatrox']","['Draven', 'Fiddlesticks', 'Yuumi', 'Pyke', 'NULL']"
+4408706855,True,"['Draven', 'Tristana', 'Kassadin', 'Kindred', 'Blitzcrank']","['Draven', 'Kayn', 'Twitch', 'Fiora', 'Azir']"
+4413748817,False,"['Renata', 'Kayn', 'Yone', 'Fiora', 'Draven']","['Diana', 'Azir', 'Sion', 'Pyke', 'Kalista']"
+4412900941,False,"['Kayn', 'Samira', 'Draven', 'Gragas', 'Graves']","['Zeri', 'NULL', 'Qiyana', 'Teemo', 'Kalista']"
+4408561473,True,"['Draven', 'MonkeyKing', 'Blitzcrank', 'Akali', 'Taliyah']","['Draven', 'Poppy', 'Fiddlesticks', 'Kled', 'Rengar']"
+4411340953,False,"['NULL', 'Fiora', 'Rengar', 'Pyke', 'Azir']","['Nautilus', 'Kalista', 'NULL', 'Jax', 'Camille']"
+4414246055,True,"['Pyke', 'Kindred', 'Poppy', 'Rumble', 'Draven']","['Fiddlesticks', 'Draven', 'Gragas', 'Jax', 'Graves']"
+4410208335,False,"['Draven', 'Karthus', 'Fiora', 'Diana', 'Kindred']","['Zilean', 'Poppy', 'Draven', 'Pyke', 'NULL']"
+4412857479,True,"['Draven', 'Qiyana', 'Gragas', 'Belveth', 'Yuumi']","['Yuumi', 'Draven', 'Kayn', 'LeeSin', 'MonkeyKing']"
+4414353993,True,"['Karma', 'Ashe', 'Draven', 'Singed', 'Kayn']","['Kayn', 'Azir', 'Kindred', 'Draven', 'Fiora']"
+4414091840,False,"['Karthus', 'Draven', 'Pyke', 'Irelia', 'Kindred']","['Draven', 'Kayn', 'Darius', 'Jax', 'Yone']"
+4408387407,True,"['Tryndamere', 'MasterYi', 'Katarina', 'Azir', 'Trundle']","['Diana', 'MonkeyKing', 'Yasuo', 'Garen', 'Teemo']"
+4408055343,False,"['Draven', 'Sylas', 'Zilean', 'Nidalee', 'Yuumi']","['Leblanc', 'Garen', 'Draven', 'Kled', 'Aatrox']"
+4409308087,True,"['Gragas', 'Yasuo', 'Yone', 'Kindred', 'Draven']","['Rengar', 'Sylas', 'Yuumi', 'Yasuo', 'Katarina']"
+4414182216,False,"['Kayn', 'Twitch', 'Fiora', 'Draven', 'Poppy']","['Nunu', 'Yasuo', 'Kindred', 'Teemo', 'Yone']"
+4412418252,True,"['Kindred', 'Draven', 'NULL', 'Kassadin', 'Yuumi']","['Jax', 'Draven', 'Darius', 'Poppy', 'MissFortune']"
+4410045948,True,"['Pyke', 'Sivir', 'Jax', 'Morgana', 'Zoe']","['Darius', 'Fiddlesticks', 'Seraphine', 'Zed', 'Draven']"
+4411029334,False,"['Yuumi', 'Draven', 'Camille', 'Fiddlesticks', 'Vayne']","['Draven', 'Zeri', 'Taric', 'Garen', 'Qiyana']"
+4408333270,False,"['Yuumi', 'Sylas', 'Nami', 'Jax', 'Nasus']","['Evelynn', 'Draven', 'Jax', 'Renata', 'Pantheon']"
+4413413992,False,"['Seraphine', 'Fiddlesticks', 'Draven', 'Akali', 'Rengar']","['Sona', 'Kindred', 'Viktor', 'Draven', 'NULL']"
+4409476475,False,"['Yasuo', 'Pyke', 'Qiyana', 'Belveth', 'Gangplank']","['Sivir', 'Viego', 'Fiora', 'Zed', 'Yasuo']"
+4409356213,False,"['Fiora', 'Yasuo', 'Zoe', 'MonkeyKing', 'Jax']","['Jax', 'Sona', 'Fiora', 'Graves', 'Blitzcrank']"
+4411126891,True,"['Seraphine', 'Draven', 'Kassadin', 'Twitch', 'Gnar']","['Pyke', 'Qiyana', 'Aatrox', 'Tryndamere', 'Kindred']"
+4413268637,True,"['Fiddlesticks', 'NULL', 'Draven', 'Poppy', 'Sivir']","['Draven', 'Darius', 'Yasuo', 'Vladimir', 'Nilah']"
+4408294412,False,"['Sona', 'RekSai', 'MasterYi', 'NULL', 'Draven']","['Yuumi', 'Zeri', 'Renata', 'Jax', 'Syndra']"
+4412377309,True,"['Draven', 'Camille', 'Sivir', 'Vladimir', 'Zed']","['Gangplank', 'Sivir', 'Sylas', 'Qiyana', 'Kayn']"
+4408141859,True,"['Fizz', 'Fiora', 'Pyke', 'Rengar', 'Fiddlesticks']","['Zed', 'Draven', 'Gangplank', 'Rengar', 'Sylas']"
+4409433514,False,"['Rengar', 'Pyke', 'MonkeyKing', 'Fiora', 'Yuumi']","['Draven', 'Nautilus', 'LeeSin', 'Sylas', 'Graves']"
+4408954204,False,"['Nautilus', 'Pyke', 'Fiora', 'Ahri', 'Draven']","['Kayn', 'Gangplank', 'Twitch', 'RekSai', 'Taric']"
+4409765146,False,"['Viktor', 'Draven', 'Yuumi', 'Zac', 'Fiora']","['Draven', 'Kassadin', 'Poppy', 'Volibear', 'Pyke']"
+4412638761,False,"['Kindred', 'Tryndamere', 'Yuumi', 'Fiora', 'Renata']","['Fiora', 'Sivir', 'Kalista', 'Zoe', 'Azir']"
+4413176501,True,"['Draven', 'Yuumi', 'Graves', 'Aatrox', 'Taric']","['Draven', 'Nunu', 'Kayn', 'Yone', 'Yasuo']"
+4410233434,True,"['Jax', 'Pyke', 'Fiddlesticks', 'Rengar', 'Graves']","['Diana', 'Lucian', 'Qiyana', 'Draven', 'Aatrox']"
+4412787478,False,"['Gragas', 'Kayn', 'Darius', 'Karthus', 'Draven']","['Diana', 'Darius', 'Neeko', 'Draven', 'Senna']"
+4409940586,True,"['Sylas', 'Qiyana', 'Pyke', 'Caitlyn', 'Gragas']","['MonkeyKing', 'Yuumi', 'Riven', 'Sylas', 'Rengar']"
+4408907605,False,"['Viego', 'Qiyana', 'Pyke', 'Kalista', 'Kindred']","['Azir', 'Sivir', 'Zilean', 'Draven', 'Teemo']"
+4413883005,True,"['Graves', 'Kindred', 'Akshan', 'Draven', 'Diana']","['Diana', 'Zed', 'Olaf', 'Qiyana', 'Karthus']"
+4410863393,True,"['Diana', 'Darius', 'Kalista', 'Draven', 'Sylas']","['RekSai', 'Pyke', 'Diana', 'Zeri', 'Heimerdinger']"
+4413090423,True,"['Zeri', 'Velkoz', 'Belveth', 'Fiora', 'Kindred']","['NULL', 'Kindred', 'Shaco', 'Jax', 'Kassadin']"
+4413778046,True,"['Vladimir', 'Belveth', 'Yone', 'Graves', 'Draven']","['LeeSin', 'Kayn', 'Yuumi', 'RekSai', 'Azir']"
+4410269637,False,"['Zeri', 'MissFortune', 'Draven', 'Zilean', 'Viego']","['Aatrox', 'Graves', 'Nautilus', 'Yone', 'Kindred']"
+4414009370,True,"['Jax', 'Fiora', 'Graves', 'Twitch', 'Aatrox']","['Draven', 'Sylas', 'Aatrox', 'Olaf', 'Fiddlesticks']"
+4410820011,True,"['Twitch', 'Gwen', 'Vladimir', 'Draven', 'Yuumi']","['Zilean', 'Ornn', 'Yuumi', 'Leblanc', 'Rengar']"
+4408148864,True,"['Fiora', 'Sivir', 'Yasuo', 'Graves', 'NULL']","['Teemo', 'Pyke', 'Kindred', 'Draven', 'Cassiopeia']"
+4413499135,True,"['Sivir', 'Fiora', 'Kayn', 'Zilean', 'Draven']","['Nunu', 'Kindred', 'Yuumi', 'Karthus', 'Tryndamere']"
+4413287859,True,"['Poppy', 'Yuumi', 'Ashe', 'Yasuo', 'Yone']","['NULL', 'Sylas', 'Katarina', 'Aatrox', 'Senna']"
+4410384109,False,"['Qiyana', 'Fiora', 'Fiddlesticks', 'Sylas', 'Sivir']","['Jax', 'Yone', 'Pyke', 'Draven', 'Fiddlesticks']"
+4411031977,False,"['Kalista', 'Zed', 'Azir', 'Gangplank', 'Bard']","['Vayne', 'Yasuo', 'Pantheon', 'Draven', 'Yone']"
+4412904045,False,"['NULL', 'Draven', 'NULL', 'Kayn', 'Jax']","['Taliyah', 'Poppy', 'Rengar', 'Yuumi', 'Kayn']"
+4408298564,True,"['Nilah', 'Draven', 'Viktor', 'Teemo', 'Yuumi']","['Yuumi', 'Draven', 'Irelia', 'Akali', 'Sylas']"
+4410726165,False,"['Karthus', 'Sivir', 'Fiora', 'Nilah', 'Yasuo']","['Kalista', 'Sivir', 'XinZhao', 'Fiora', 'Viktor']"
+4408193899,True,"['Nautilus', 'TahmKench', 'Draven', 'Zed', 'Kindred']","['Aatrox', 'Graves', 'Sylas', 'Vladimir', 'Draven']"
+4408309537,True,"['Elise', 'Vayne', 'Jax', 'Draven', 'Sylas']","['Pyke', 'Seraphine', 'Kindred', 'Jax', 'Zed']"
+4408618800,True,"['Sylas', 'Yuumi', 'Poppy', 'NULL', 'Malphite']","['Twitch', 'Talon', 'Graves', 'Kassadin', 'Janna']"
+4413265833,True,"['Cassiopeia', 'Poppy', 'Vladimir', 'Gragas', 'Sylas']","['Teemo', 'Fiora', 'Yasuo', 'Draven', 'Rengar']"
+4409761482,False,"['Kindred', 'Blitzcrank', 'Draven', 'Sylas', 'Fiora']","['Jax', 'Tryndamere', 'Yuumi', 'Graves', 'Draven']"
+4410269480,True,"['Kassadin', 'Akali', 'Draven', 'NULL', 'Janna']","['Renata', 'Draven', 'Yuumi', 'Belveth', 'MasterYi']"
+4413198597,False,"['Jax', 'Singed', 'Draven', 'Kayn', 'Vladimir']","['NULL', 'Sylas', 'Nami', 'Draven', 'Pantheon']"
+4411356608,True,"['Samira', 'Draven', 'Vladimir', 'Yone', 'Kayn']","['Draven', 'Azir', 'Fiora', 'Tryndamere', 'Yuumi']"
+4414125620,True,"['Draven', 'Darius', 'Singed', 'Sylas', 'Tryndamere']","['Poppy', 'Vex', 'Sivir', 'Fiddlesticks', 'Gangplank']"
+4412548956,True,"['Yuumi', 'Jax', 'NULL', 'Darius', 'Kindred']","['Yuumi', 'Fiora', 'Ekko', 'Hecarim', 'Seraphine']"
+4412326491,False,"['Pyke', 'Yuumi', 'Fiora', 'Jax', 'Irelia']","['Tryndamere', 'Renata', 'Yuumi', 'Nilah', 'Evelynn']"
+4410918278,True,"['Sylas', 'Twitch', 'Diana', 'Jayce', 'Sivir']","['Rengar', 'Fiora', 'Zed', 'Draven', 'Rumble']"
+4411940859,True,"['Yasuo', 'Yuumi', 'Azir', 'Rengar', 'Kindred']","['Fiora', 'Kalista', 'Rengar', 'NULL', 'Talon']"
+4413154965,True,"['Sylas', 'Graves', 'Ahri', 'Pantheon', 'Pyke']","['Gwen', 'Poppy', 'Talon', 'Nidalee', 'Darius']"
+4410253832,False,"['Draven', 'Kindred', 'Akshan', 'MasterYi', 'Soraka']","['Taric', 'Graves', 'Belveth', 'Leblanc', 'Jax']"
+4412391242,False,"['Pyke', 'Camille', 'Fiddlesticks', 'Yone', 'Draven']","['Gwen', 'Yuumi', 'Kalista', 'Azir', 'Fiddlesticks']"
+4411759943,False,"['Draven', 'Akali', 'Fiddlesticks', 'Kayn', 'Pyke']","['Garen', 'Jax', 'Yuumi', 'Azir', 'Yasuo']"
+4413784004,False,"['Yuumi', 'Kindred', 'Shaco', 'Draven', 'Sivir']","['Diana', 'Gangplank', 'Kayn', 'Seraphine', 'Draven']"
+4408333837,True,"['Lucian', 'Pantheon', 'Jax', 'Kindred', 'Sylas']","['Draven', 'Lulu', 'Malphite', 'Yone', 'Hecarim']"
+4412865365,True,"['Syndra', 'Kalista', 'Viktor', 'Camille', 'Draven']","['Pyke', 'Taliyah', 'Poppy', 'Draven', 'Fiora']"
+4411227865,False,"['Jax', 'Kindred', 'Kayn', 'NULL', 'Qiyana']","['Draven', 'Senna', 'Pantheon', 'Fiddlesticks', 'NULL']"
+4412883031,False,"['Rengar', 'Kalista', 'Lillia', 'Zilean', 'Belveth']","['Karthus', 'Draven', 'Kayn', 'Teemo', 'Poppy']"
+4414047926,True,"['Nautilus', 'Poppy', 'Sylas', 'Jax', 'Sivir']","['Yasuo', 'Draven', 'Fiddlesticks', 'Evelynn', 'Neeko']"
+4414401229,False,"['Graves', 'Aatrox', 'Leblanc', 'Gangplank', 'Kayn']","['Fiddlesticks', 'MissFortune', 'Sylas', 'MonkeyKing', 'Draven']"
+4409592900,True,"['Rengar', 'Zilean', 'Akali', 'Draven', 'Sona']","['Draven', 'Sylas', 'Fiddlesticks', 'Poppy', 'Graves']"
+4410317111,True,"['Fiora', 'Taric', 'Draven', 'Tryndamere', 'Kindred']","['Sivir', 'Yasuo', 'Vayne', 'Draven', 'Zilean']"
+4410156711,False,"['Diana', 'Graves', 'Leblanc', 'Zilean', 'Draven']","['Blitzcrank', 'MasterYi', 'Yuumi', 'Zed', 'Zeri']"
+4412819551,False,"['Draven', 'Ahri', 'Poppy', 'Annie', 'Kalista']","['Zoe', 'Qiyana', 'Draven', 'Jax', 'Ziggs']"
+4409387177,True,"['Jax', 'Sivir', 'Yuumi', 'Draven', 'Kindred']","['RekSai', 'Fiddlesticks', 'Taric', 'Kassadin', 'Yuumi']"
+4408331293,True,"['Rengar', 'Draven', 'MonkeyKing', 'Thresh', 'Syndra']","['Yuumi', 'Kindred', 'Shaco', 'Malphite', 'Ashe']"
+4413733685,True,"['Draven', 'Fiora', 'Rengar', 'Jax', 'Qiyana']","['Taric', 'Nidalee', 'Tryndamere', 'Draven', 'Qiyana']"
+4413570660,False,"['Aatrox', 'Kayn', 'Azir', 'Draven', 'Renata']","['Fiora', 'Zeri', 'NULL', 'Zed', 'Fiddlesticks']"
+4412715094,False,"['Katarina', 'Seraphine', 'Darius', 'Kalista', 'Vladimir']","['Pyke', 'Zoe', 'Draven', 'Yuumi', 'Leblanc']"
+4412870802,False,"['Leblanc', 'Khazix', 'Twitch', 'Lulu', 'Yuumi']","['Belveth', 'Yuumi', 'Viktor', 'Karthus', 'Jax']"
+4408208762,True,"['Draven', 'NULL', 'Fiora', 'Sivir', 'Zilean']","['Cassiopeia', 'Twitch', 'Draven', 'Yuumi', 'Neeko']"
+4412584428,False,"['Kindred', 'NULL', 'Teemo', 'Heimerdinger', 'Belveth']","['Fiddlesticks', 'Kassadin', 'Kindred', 'Nilah', 'Ashe']"
+4409733915,False,"['Diana', 'Swain', 'Draven', 'Aatrox', 'Yuumi']","['NULL', 'Yone', 'NULL', 'Draven', 'NULL']"
+4412164821,True,"['Sivir', 'Fiora', 'Jax', 'Pyke', 'Kindred']","['Draven', 'Fiddlesticks', 'Sivir', 'Leblanc', 'Yuumi']"
+4410424058,True,"['Zilean', 'Qiyana', 'Pyke', 'Camille', 'Kassadin']","['Fiora', 'Qiyana', 'Kindred', 'Aatrox', 'Draven']"
+4413992422,False,"['Taric', 'Sylas', 'Garen', 'Fiora', 'Viego']","['Evelynn', 'Yuumi', 'Sivir', 'Fiddlesticks', 'Singed']"
+4412438160,True,"['Cassiopeia', 'Fiora', 'Amumu', 'Graves', 'Kindred']","['NULL', 'Belveth', 'Draven', 'Graves', 'Pyke']"
+4413077866,False,"['Zilean', 'RekSai', 'Draven', 'Kindred', 'Yuumi']","['Diana', 'Draven', 'Cassiopeia', 'Sylas', 'Fiddlesticks']"
+4412857091,False,"['Kindred', 'Graves', 'Draven', 'Jax', 'Rengar']","['Draven', 'Twitch', 'Yuumi', 'Teemo', 'Kindred']"
+4414470265,True,"['NULL', 'Poppy', 'Tryndamere', 'Janna', 'Riven']","['MonkeyKing', 'Azir', 'Gragas', 'Blitzcrank', 'Pantheon']"
+4413676739,False,"['Akshan', 'Kindred', 'Ezreal', 'Azir', 'Diana']","['Neeko', 'Poppy', 'Pyke', 'Diana', 'Jax']"
+4413475183,False,"['NULL', 'Fiora', 'Rengar', 'Annie', 'Draven']","['Draven', 'Amumu', 'Morgana', 'Kayn', 'Gangplank']"
+4413979315,False,"['Fiora', 'NULL', 'Sylas', 'Graves', 'Vex']","['Kindred', 'Kennen', 'Draven', 'Renata', 'Nautilus']"
+4408912344,True,"['Draven', 'Sylas', 'Kindred', 'Darius', 'Pyke']","['Kalista', 'Poppy', 'Sivir', 'NULL', 'Draven']"
+4413983804,True,"['Gangplank', 'Qiyana', 'MasterYi', 'Kayn', 'Pyke']","['Teemo', 'Sylas', 'Pyke', 'Kindred', 'Yuumi']"
+4414283880,False,"['Draven', 'Fiddlesticks', 'Pyke', 'Kassadin', 'Gangplank']","['Blitzcrank', 'Qiyana', 'Malphite', 'Karthus', 'Draven']"
+4410296841,True,"['Rengar', 'Teemo', 'Draven', 'Sona', 'Swain']","['Sivir', 'Graves', 'Sylas', 'Pantheon', 'Fiora']"
+4413164353,True,"['Soraka', 'Fiora', 'Kayn', 'Zed', 'Draven']","['Zeri', 'Taliyah', 'MonkeyKing', 'Pyke', 'Poppy']"
+4410429223,True,"['MonkeyKing', 'Fiora', 'Azir', 'Soraka', 'Draven']","['Leblanc', 'Yone', 'Draven', 'Samira', 'Tryndamere']"
+4413098324,False,"['Draven', 'Kayn', 'Fiora', 'Kindred', 'Leblanc']","['Renata', 'Graves', 'NULL', 'Kassadin', 'Yuumi']"
+4414844136,True,"['Yone', 'Pyke', 'Kalista', 'Nilah', 'Belveth']","['Fiddlesticks', 'Kayn', 'Soraka', 'Darius', 'Sylas']"
+4408190086,True,"['Renekton', 'Pyke', 'Tristana', 'Kindred', 'Zed']","['Nilah', 'Kayn', 'Draven', 'Zilean', 'Azir']"
+4410335560,True,"['Kled', 'NULL', 'Jax', 'Vayne', 'Draven']","['Katarina', 'Rengar', 'MonkeyKing', 'Yuumi', 'Draven']"
+4410828839,False,"['Draven', 'Pyke', 'Fiora', 'Rengar', 'Zed']","['Riven', 'Azir', 'Samira', 'Kalista', 'Garen']"
+4412355014,False,"['NULL', 'Fiddlesticks', 'Camille', 'Gwen', 'Pyke']","['Draven', 'Fiddlesticks', 'Fiora', 'Akshan', 'Pyke']"
+4412333781,False,"['Karthus', 'Fiora', 'Kassadin', 'Kindred', 'Orianna']","['Draven', 'Yuumi', 'Zed', 'Azir', 'Fiora']"
+4410024979,True,"['Jax', 'Azir', 'Draven', 'Kindred', 'Pantheon']","['Leblanc', 'Fiora', 'Draven', 'Poppy', 'Kayn']"
+4408698072,True,"['Kindred', 'Zoe', 'Draven', 'Rengar', 'Malphite']","['Blitzcrank', 'Kindred', 'Draven', 'Jax', 'Pantheon']"
+4410365737,True,"['Twitch', 'Qiyana', 'Nilah', 'Katarina', 'Jax']","['Fiora', 'Yone', 'Caitlyn', 'Zilean', 'Vayne']"
+4414190338,True,"['Graves', 'Aatrox', 'Darius', 'Draven', 'Yuumi']","['Zed', 'NULL', 'Kindred', 'Evelynn', 'Zac']"
+4412705514,False,"['Teemo', 'NULL', 'Kayn', 'NULL', 'Renata']","['NULL', 'Draven', 'Zilean', 'Taliyah', 'Yuumi']"
+4411114104,False,"['Leblanc', 'Soraka', 'Graves', 'Fiora', 'Qiyana']","['Yasuo', 'Fiora', 'Qiyana', 'Azir', 'Yuumi']"
+4412748262,False,"['Kayn', 'Draven', 'Pyke', 'Poppy', 'Vladimir']","['Draven', 'Kindred', 'Nunu', 'Talon', 'Rengar']"
+4410819622,True,"['Shaco', 'Draven', 'Graves', 'Yuumi', 'Yone']","['Veigar', 'Yuumi', 'Draven', 'Rengar', 'MonkeyKing']"
+4408596297,False,"['Draven', 'Kayn', 'Gangplank', 'Kassadin', 'Seraphine']","['Draven', 'Talon', 'Poppy', 'Kindred', 'Akali']"
+4412124358,True,"['Draven', 'Akshan', 'Fiora', 'Kindred', 'Yasuo']","['Fiora', 'Sylas', 'Yuumi', 'Syndra', 'Draven']"
+4408646105,False,"['Rengar', 'Kayn', 'Katarina', 'Sylas', 'Fiora']","['Vayne', 'Darius', 'Zed', 'Warwick', 'Draven']"
+4413310651,True,"['Poppy', 'Riven', 'Vladimir', 'Teemo', 'Draven']","['Kindred', 'Renekton', 'Sivir', 'Zoe', 'Tryndamere']"
+4413555446,True,"['Draven', 'Yuumi', 'Akshan', 'Fiddlesticks', 'Fiora']","['Pyke', 'Rengar', 'Vladimir', 'Draven', 'Jax']"
+4409339825,True,"['Sylas', 'Sivir', 'Sona', 'Yasuo', 'Yone']","['Rengar', 'Zilean', 'Katarina', 'MissFortune', 'Sylas']"
+4414782727,True,"['Sett', 'Yone', 'Yasuo', 'Ahri', 'NULL']","['Teemo', 'Sivir', 'Yuumi', 'Draven', 'Qiyana']"
+4414387263,False,"['Fiora', 'Fiddlesticks', 'NULL', 'Draven', 'MonkeyKing']","['Rengar', 'Sivir', 'Ashe', 'Yone', 'Fiddlesticks']"
+4414808677,False,"['Darius', 'Draven', 'Belveth', 'Yuumi', 'Poppy']","['Renata', 'Vladimir', 'Jax', 'NULL', 'Fiora']"
+4411149370,True,"['Jax', 'NULL', 'Leblanc', 'Pyke', 'Graves']","['Draven', 'Fiddlesticks', 'Kindred', 'Azir', 'Kayn']"
+4409263059,False,"['Alistar', 'Sivir', 'Zilean', 'Nunu', 'Akali']","['Draven', 'Kayn', 'Qiyana', 'Graves', 'Zilean']"
+4414872489,True,"['Tryndamere', 'Sylas', 'Sivir', 'Fiddlesticks', 'Draven']","['Kalista', 'LeeSin', 'Yuumi', 'Draven', 'Sylas']"
+4408288401,False,"['Ezreal', 'Malphite', 'Pantheon', 'Fiddlesticks', 'Yuumi']","['Yuumi', 'Yasuo', 'Senna', 'Fiddlesticks', 'Jax']"
+4407808109,False,"['Fiddlesticks', 'Kassadin', 'Kalista', 'Draven', 'Garen']","['Kindred', 'Yone', 'Yuumi', 'Yasuo', 'Draven']"
+4413542435,True,"['Kindred', 'Aatrox', 'Yuumi', 'Yasuo', 'Senna']","['Vladimir', 'Sivir', 'Pyke', 'Diana', 'Rengar']"
+4408115502,True,"['Yuumi', 'Draven', 'Sivir', 'Taric', 'Zilean']","['Sivir', 'Taric', 'Teemo', 'Qiyana', 'NULL']"
+4411134997,True,"['Zeri', 'Warwick', 'Kayn', 'Rengar', 'Nilah']","['Draven', 'Warwick', 'Samira', 'Viktor', 'NULL']"
+4413554106,True,"['Fiddlesticks', 'Tristana', 'Yasuo', 'Jax', 'Yuumi']","['Blitzcrank', 'Yuumi', 'Teemo', 'Nunu', 'Draven']"
+4409577999,False,"['Sivir', 'Yuumi', 'Samira', 'Shaco', 'Graves']","['Annie', 'Katarina', 'Nunu', 'Belveth', 'Kayn']"
+4411640566,False,"['Poppy', 'Garen', 'NULL', 'Fiora', 'Annie']","['Graves', 'Riven', 'Samira', 'Renata', 'Tryndamere']"
+4413926498,True,"['Draven', 'Kalista', 'Sylas', 'Seraphine', 'Kayn']","['Fiora', 'Zed', 'Sivir', 'Garen', 'Draven']"
+4414394192,False,"['Fiddlesticks', 'Kalista', 'Draven', 'Rengar', 'Swain']","['Yone', 'Lillia', 'Talon', 'Zeri', 'Draven']"
+4411397938,False,"['Fiddlesticks', 'Jax', 'Renata', 'Draven', 'Kindred']","['Draven', 'Zac', 'Hecarim', 'Vladimir', 'Fiddlesticks']"
+4408663996,True,"['Pyke', 'Fiora', 'Cassiopeia', 'Draven', 'Poppy']","['Kayn', 'Pantheon', 'Taric', 'Draven', 'Fiora']"
+4413354764,True,"['Viktor', 'Fiddlesticks', 'Kassadin', 'Sylas', 'Pyke']","['Gragas', 'Yuumi', 'Garen', 'Poppy', 'Renata']"
+4411097135,False,"['Qiyana', 'Yuumi', 'Renata', 'Talon', 'Karthus']","['Fiora', 'Zed', 'Yuumi', 'MonkeyKing', 'LeeSin']"
+4410980923,True,"['Akali', 'Ekko', 'Gangplank', 'Azir', 'Talon']","['Fiddlesticks', 'Zed', 'Yasuo', 'Zilean', 'Gnar']"
+4414252149,True,"['Diana', 'Akshan', 'Akali', 'Fiddlesticks', 'Kindred']","['Yone', 'Tryndamere', 'NULL', 'Jax', 'NULL']"
+4412241356,True,"['Qiyana', 'Kayn', 'Yuumi', 'Fiora', 'Draven']","['Yuumi', 'Lucian', 'Taric', 'Evelynn', 'Draven']"
+4409261327,True,"['Karthus', 'Pyke', 'Draven', 'MonkeyKing', 'Kindred']","['Sylas', 'Nautilus', 'MasterYi', 'Leblanc', 'Kayn']"
+4408918806,False,"['Riven', 'Nunu', 'NULL', 'Yuumi', 'Fiddlesticks']","['Syndra', 'Draven', 'Fiora', 'Nunu', 'Evelynn']"
+4413224703,False,"['Draven', 'Kayn', 'Nunu', 'Kindred', 'NULL']","['Diana', 'Irelia', 'Jax', 'Kassadin', 'Draven']"
+4411882734,False,"['Draven', 'Sivir', 'Irelia', 'Pyke', 'Viktor']","['Belveth', 'Katarina', 'Poppy', 'Jax', 'Karthus']"
+4408170498,False,"['Fiora', 'Draven', 'Sivir', 'Kayn', 'Ahri']","['Draven', 'Diana', 'NULL', 'Pyke', 'Fiddlesticks']"
+4413227593,True,"['Kindred', 'Draven', 'Aatrox', 'Akali', 'Thresh']","['Sylas', 'NULL', 'Udyr', 'Akali', 'Malphite']"
+4408937858,True,"['Ekko', 'Renekton', 'Draven', 'Leblanc', 'Graves']","['Leblanc', 'Cassiopeia', 'Kayn', 'Jax', 'Ahri']"
+4412734683,False,"['Fiddlesticks', 'Anivia', 'Yuumi', 'Gangplank', 'Draven']","['Amumu', 'Draven', 'Kayn', 'Jax', 'Udyr']"
+4410514241,True,"['Senna', 'Fiora', 'Yuumi', 'Rengar', 'Draven']","['Renata', 'Fiora', 'Sylas', 'Samira', 'Shaco']"
+4412229472,False,"['Azir', 'Fiora', 'Seraphine', 'Vladimir', 'Jinx']","['Rakan', 'Poppy', 'Draven', 'Belveth', 'Qiyana']"
+4414189565,False,"['Pyke', 'Yuumi', 'Renata', 'Darius', 'Azir']","['Aatrox', 'RekSai', 'Kindred', 'Kayn', 'Nautilus']"
