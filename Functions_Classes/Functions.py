@@ -231,12 +231,14 @@ class Match_details:
     
     def __init__(self, Match_id, api_key):
         self.Match_id = Match_id
-        
+        print(self.Match_id)
         #Calling matchesV5 api
         self.call = get_match_info(Match_id, api_key)
         
         #Storing api call and filtering out uneeded data
+
         self.Match_info = self.call['info']
+
         
         #list of dictionaries including stats for each player
         self.players = self.Match_info['participants']
@@ -277,11 +279,12 @@ class Match_details:
             '''
     
             def __init__(self, summoner_Id, players, api_key):
-                self.summoner_Id = summoner_Id
+                self.current_summoner_Id = summoner_Id
+                print(self.current_summoner_Id)
                 # Holds lane, champion and team of given player
                 self.players = players
                 for value in self.players:
-                    if value['summonerId'] == self.summoner_Id:
+                    if value['summonerId'] == self.current_summoner_Id:
                         
                         #Tracking player information
                         self.summonerName = value['summonerName']
@@ -314,22 +317,29 @@ class Match_details:
                         elif self.teamId == 200:
                             self.teamId = 'team2'
                 #Grabbing winrate/winstreak/rank/lp of the given player        
-                self.player_stats = get_player_stats(self.summoner_Id, api_key)
-                
-                if self.player_stats == 'status':
-                    time.sleep(130)
+                self.player_stats = get_player_stats(self.current_summoner_Id, api_key)
                     
                 for queue in self.player_stats:
-                    print(queue)
-                    if queue['queueType'] == 'RANKED_SOLO_5x5':
-                        self.wins = queue['wins']
-                        self.losses = queue['losses']
-                        self.tier = queue['tier']
-                        self.rank = queue['rank']
-                        self.lp = queue['leaguePoints']
-                        self.veteran = queue['veteran']
-                        self.winstreak = queue['hotStreak']
+                    try:
+                        if queue['queueType'] == 'RANKED_SOLO_5x5':
+                            self.wins = queue['wins']
+                            self.losses = queue['losses']
+                            self.tier = queue['tier']
+                            self.rank = queue['rank']
+                            self.lp = queue['leaguePoints']
+                            self.veteran = queue['veteran']
+                            self.winstreak = queue['hotStreak']
 
+                    except:
+                        self.wins = 'NULL'
+                        self.losses = 'NULL'
+                        self.tier = 'NULL'
+                        self.rank = 'NULL'
+                        self.lp = 'NULL'
+                        self.veteran = 'NULL'
+                        self.winstreak = 'NULL'
+                        print('Error')
+                        continue
                         
         
         #Creating a dictionary to hold all the player information (lane, champion, team)
@@ -337,5 +347,5 @@ class Match_details:
         for i, summoner_Id in enumerate(self.summoner_Id):
             temp = 'Player' + str(i)
             self.player_position[temp] = Player(summoner_Id, self.players, api_key)
-            time.sleep(20)
+            time.sleep(16)
                 
