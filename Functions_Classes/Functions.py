@@ -122,7 +122,7 @@ def get_matches(puuid, startTime_Unix, endTime_Unix, api_key):
         
         #Only grabbing the first 50 results
         'start' : 0,
-        'count' : 50
+        'count' : 25
     }
     return re.get(url, headers = header_dict, params = params_dict).json()
 
