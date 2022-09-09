@@ -122,7 +122,7 @@ def get_matches(puuid, startTime_Unix, endTime_Unix, api_key):
         
         #Only grabbing the first 50 results
         'start' : 0,
-        'count' : 25
+        'count' : 50
     }
     return re.get(url, headers = header_dict, params = params_dict).json()
 
@@ -347,5 +347,5 @@ class Match_details:
         for i, summoner_Id in enumerate(self.summoner_Id):
             temp = 'Player' + str(i)
             self.player_position[temp] = Player(summoner_Id, self.players, api_key)
-            time.sleep(16)
+            time.sleep(18)
                 

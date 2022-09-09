@@ -15,8 +15,8 @@ player_info = {}
 #Retrieving players from challenger in range(x). The summoner object calls the api for match history and stores it
 for i in range(300):
     temp = 'summoner' + str(i)
-    player_info[temp] = Fc.Summoner(challenger_ladder['entries'][i]['summonerId'], 1661335200, 2660730400, challenger_ladder, api_key)
-    print(i)                        #Printing current player
+    player_info[temp] = Fc.Summoner(challenger_ladder['entries'][i]['summonerId'], 1661858020, 2660730400, challenger_ladder, api_key)
+    print(i)                        #Printing current player 
     print(player_info[temp])        #Printing the stored player object
     time.sleep(2)                   #Resting to not overcall API
 
@@ -41,7 +41,7 @@ for a in range(len(games)):
 total_games = list(set(total_games))
 
 #Retrieving all important information for a match
-for game in total_games:    
+for game in total_games[::8]:    
     print(total_games.index(game))
     
     #Calls the API for us and returns to us a bunch of attributes that we can call for
